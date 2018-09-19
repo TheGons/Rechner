@@ -5,5 +5,7 @@ public class Sinnlos
 	{
 		System.out.println("HAHA");
 		int nein = 88;
+		
+		boolean ja = false;
 	}
 }
