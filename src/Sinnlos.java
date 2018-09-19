@@ -5,7 +5,12 @@ public class Sinnlos
 	{
 		System.out.println("HAHA");
 		int nein = 88;
+
+		boolean jaa = false;
+
 		int ja = 23;
-		String jaa = "Nein";
+
+		String jaaa = "Nein";
+
 	}
 }
