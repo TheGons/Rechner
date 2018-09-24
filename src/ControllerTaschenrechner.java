@@ -18,6 +18,8 @@ public class ControllerTaschenrechner {
 			konsole = new KonsoleTaschenrechner();
 			rechner = new Rechenoperationen();
 			Data_Writer data_Writer = new Data_Writer();
+			GUI_View gui = new GUI_View();
+			gui.Start_Gui();
 			auswahlc = konsole.eingabeOperation();
 			zahl1 = konsole.eingabeZahl();
 			zahl2 = konsole.eingabeZahl();
