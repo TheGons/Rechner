@@ -8,8 +8,6 @@
  */
 
 import java.awt.EventQueue;
-
-
 import javax.swing.JFrame;
 import javax.swing.SpringLayout;
 import javax.swing.SwingConstants;
@@ -17,7 +15,6 @@ import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
-import javax.swing.Icon;
 import javax.swing.JButton;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -26,12 +23,8 @@ import java.awt.Font;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
-import java.awt.datatransfer.Transferable;
-import java.awt.ComponentOrientation;
-import javax.swing.JPanel;
-import javax.swing.border.CompoundBorder;
-import javax.swing.border.LineBorder;
-import java.awt.Color;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public class GUI_View 
 {
@@ -102,6 +95,7 @@ public class GUI_View
 		frmRechner.getContentPane().add(lblWert_1);
 		
 		wert2Field = new JTextField();
+		
 		springLayout.putConstraint(SpringLayout.NORTH, wert2Field, 6, SpringLayout.SOUTH, wert1Field);
 		springLayout.putConstraint(SpringLayout.WEST, wert2Field, 0, SpringLayout.WEST, wert1Field);
 		springLayout.putConstraint(SpringLayout.EAST, wert2Field, 0, SpringLayout.EAST, wert1Field);
